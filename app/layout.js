@@ -1,12 +1,14 @@
 export const metadata = {
   title: "Prime Ape OS",
-  description: "Frontend Engine",
+  description: "Frontend for Prime Ape OS",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body style={{ margin: 0, padding: 0 }}>
+        {children}
+      </body>
     </html>
   );
 }
