@@ -1,7 +1,11 @@
 export default function Home() {
   return (
-    <div style={{ padding: 40, fontSize: 32 }}>
-      Prime Ape OS Frontend is Live 🦍🔥
+    <div style={{ padding: 0, margin: 0 }}>
+      <img 
+        src="/hero.jpeg" 
+        alt="Hero" 
+        style={{ width: "100%", height: "100vh", objectFit: "cover" }} 
+      />
     </div>
   );
 }
